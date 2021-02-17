@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simplifying Radicals Program</title>
+    <link rel="shortcut icon" type="image/jpeg" href="download.jpeg"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+<h1>The Way To Create A Radical Simplifier Program</h1>
+<p>In order to simplify a radical the easy way (it kinda sucks to do it by hand, which I will cover as an extra in this), we must create an extremely beneficial program.</p>
+  <h3>Now, let's get started!</h3>
+  <!-- The Steps Are Below -->
+  <P>Step One: Press the PRGRM button on your TI-84/83/84+/84+CE</p>
+  <P>Step Two: Create a new program by pressing the right arrow until you get to the NEW tab. Then press ENTER.</P>
+  <P>Step Three: Name your program something simple, and easy to recognize. I recommand naming it SIMPRAD, as it is a program to simplify radicals.</P>
+  <P>Step Four: Enter the following code, as shown below, EXACTLY the way shown, or the program will not work. Note: You will omit the : when you enter the code into your calculator.</P>
+  <P>:Lbl 3</P>
+  <P>:ClrHome</P>
+  <P>:Disp "√(X)"</P>
+  <P>:Input "X=",X</P>
+  <P>:iPart(√(X)+1)-->A</P>
+  <P>:Lbl 1</P>
+  <P>:If fPart(X/A²)=0</P>
+  <P>:Then</P>
+  <P>:Goto 2</P>
+  <P>:Else</P>
+  <P>:(A-1)-->A</P>
+  <P>:Goto 1</P>
+  <P>:Lbl 2</P>
+  <P>:ClrHome</P>
+  <P>:Disp "ANSWER X√(N)"</P>
+  <P>:Disp "X=",A</P>
+  <P>:Disp "N=",X/A²</P>
+  <P>:Pause "PRESS ENTER"</P>
+  <P>:Menu("AGAIN?","YES",5,"NO",6)</P>
+  <P>:Lbl 3</P>
+  <P>:Lbl 5</p>
+ <P>:prgmSIMPRAD</P>
+  <P>:Lbl 6</P>
+  <P>:End</P>
+  <nav>
+    <ul>
+      <li><a rel="page2" type="text/html" href="page2.html">Archive Directory, Click Here</li>
+    </ul>
+    </nav
+  </body>
+</html>
+
+
