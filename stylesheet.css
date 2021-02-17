@@ -5,42 +5,6 @@ body {
   font-family: sans-serif, helvetica;
 
 }
-x {
-  color: white;
-  text-align: center;
-  font-family: sans-serif, helvetica;
-  font-size: 20px;
-}
-x {
-  color: white;
-  text-align: center;
-  font-family: sans-serif, helvetica;
-  font-size: 12px;
-}
-x {
-  color: white;
-  text-align: left;
-  font-family: sans-serif, helvetica;
-  font-size: 20px;
-}
-x {
-  color: white;
-  text-align: right;
-  font-family: sans-serif, helvetica;
-  font-size: 20px;
-}
-x {
-  color: white;
-  text-align: center;
-  font-family: sans-serif, helvetica;
-  font-size: 20px
-}
-x {
-  color: white;
-  text-align: center;
-  font-family: sans-serif, helvetica;
-  font-size: 30px;
-}
 li {
   color: black;
   font-family: sans-serif, helvetica;
@@ -119,58 +83,23 @@ h5, h6 {
   
 }
 p {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow:;
-    color: gray;
+    text-align: left;
+    color: white;
     background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
 
 }
-h1 {
-      font-family: 'Corben', Georgia, Times, serif;
-      font-size: 20px;
-      text-align: center;
-      text-shadow:;
-      color: gray;
-      background: -webkit-linear-gradient(#eee, #333);
+h1,h2,h3,h4,h5,h6 {
+  text-shadow:;
+  text-align: center;
+font-color: white;  
+ background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-}
-h2 {
-      font-family: 'Corben', Georgia, Times, serif;
-      font-size: 20px
-      text-align: left;
-      text-shadow:;
-      color: gray;
-      background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-h3 {
-      font-family: 'Corben', Georgia, Times, serif;
-      font-size: 20px;
-      text-align: right;
-      text-shadow:;
-      color: gray;
-      background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-h4 {
-      font-family: 'Corben', Georgia, Times, serif;
-      font-size: 30px;
-      text-align: center;
-      text-shadow:;
-      color: gray;
-      background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  font-family: 'Corben', Georgia, Times, serif;
 }
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-color: #FF9473;
