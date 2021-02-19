@@ -1,5 +1,13 @@
 body {
-  background-color: black;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #272f2f;
+  margin-left: 380px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
 p {
   color: white;
@@ -21,5 +29,3 @@ h3 {
   color: white;
   text-align: center;
 }
-
-
