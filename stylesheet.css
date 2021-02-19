@@ -7,7 +7,7 @@ body {
 a {
   color: inherit;
   text-decoration: inherit;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: gray;
 }
 p {
   color: white;
