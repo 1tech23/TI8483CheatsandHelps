@@ -7,6 +7,36 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
+   <div class="tab" style="text-align:center">
+    <button class="tablinks" onClick="openUs(event, 'Home')">Home</button>
+  </div>
+  <div id="Home" class='tabcontent'>
+      <a rel="home" href="index.html">Click here to go back to the homepage</a>
+                <p>-----------------------------------------</p>
+    </div>
+  <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<header>         
+    
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="banner.png">
+    </div>
+      </div>
+    </header>
   <h1>Below is a hex codes that I have found helpful.</h1>
   <h2>Enable Lowercase Letters Program</h2>
   <P>In order to get this to work, you must follow the directions EXACTLY as I have put them, or your calculator's memory could be cleared. That is never a good thing, as it literally deletes all programs and such. This will only happen if you do not put the code in correctly.</P> 
