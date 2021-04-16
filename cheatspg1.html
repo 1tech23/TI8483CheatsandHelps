@@ -7,6 +7,51 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
+  <div class="tab" style="text-align:center">
+    <button class="tablinks" onClick="openUs(event, 'Home')">To The REAL Homepage</button>
+         <button class="tablinks" onClick="openUs(event, 'hex1')">Battery Tester Hex Code</button>
+         <button class="tablinks" onClick="openUs(event, 'hex2')">Lowercase Letters Hex Code</button>
+         <button class="tablinks" onClick="openUs(event, 'simprad')">Simplifying Radicals Cheat</button>
+  </div>
+  <div id="Home" class='tabcontent'>
+      <a rel="home" href="https://loginagohacker.github.io">Click here to go back to the homepage</a>
+                <p>-----------------------------------------</p>
+    </div>
+    <div id="hex1" class='tabcontent'>
+        <a rel="hex1" href="hexcodespg1.html">Click here to see the battery tester hex code</a>
+                      <p>-----------------------------------------</p>
+    </div>
+    <div id="hex2" class='tabcontent'>
+        <a rel="hex2" href="hexcodespg2.html">Click hre to see the lowercase letters option hex code</a> 
+                      <p>-----------------------------------------</p>
+    </div>
+    <div id="simprad" class='tabcontent'>
+        <a rel="simprad" href="cheatspg1.html">Click here to see the simplifying radicals page</a>
+                      <p>-----------------------------------------</p>
+    </div>
+  <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<header>         
+    
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="banner.png">
+    </div>
+      </div>
+    </header>
 <h1>The Way To Create A Radical Simplifier Program</h1>
 <p>In order to simplify a radical the easy way (it kinda sucks to do it by hand, which I will cover as an extra in this), we must create an extremely beneficial program.</p>
   <h3>Now, let's get started!</h3>
