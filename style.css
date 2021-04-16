@@ -253,3 +253,65 @@ h3 {
   color: white;
   text-align: center;
 }
+h4 {
+      font-family: 'Corben', Georgia, Times, serif;
+      font-size: 30px;
+      text-align: center;
+      text-shadow:;
+      color: gray;
+      background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #FF9473;
+}
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow:;
+    color: gray;
+}
+a {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow:;
+    color: gray;
+    text-align: center;
+    
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*****************************/
+/* Styling Header Image Menu */
+/*****************************/
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+  
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+  
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
