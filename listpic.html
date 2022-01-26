@@ -7,14 +7,18 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-  <div class="tab" style="text-align:center">
-    <button class="tablinks" onClick="openUs(event, 'Home')">To The REAL Homepage</button>
+   <div class="tab" style="text-align:center">
+    <button class="tablinks" onClick="openUs(event, 'Index')">Home</button>
+    <button class="tablinks" onClick="openUs(event, 'Home')">To The One Enterprises Homepage</button>
          <button class="tablinks" onClick="openUs(event, 'hex1')">Battery Tester Hex Code</button>
          <button class="tablinks" onClick="openUs(event, 'hex2')">Lowercase Letters Hex Code</button>
          <button class="tablinks" onClick="openUs(event, 'simprad')">Simplifying Radicals Cheat</button>
   </div>
+  <div id="Index" class="tabcontent">
+    <a rel="index" type="text/html" href="index.html">Click here to go to the Calculator Cheats homepage.</a>
+  </div>
   <div id="Home" class='tabcontent'>
-      <a rel="home" href="https://oneenterprises.github.io">Click here to go back to the homepage.</a>
+      <a rel="home" href="https://oneenterprises.github.io">Click here to go back to the One Enterprises homepage.</a>
     <p>-----------------------------------------</p>
     </div>
     <div id="hex1" class='tabcontent'>
@@ -32,6 +36,7 @@
   <div id="listpic" class="tabcontent">
     <a rel="listpic" href="listpic.html">Click here to view the graphing tool page.</a>
     <p>--------------------------------</p>
+  </div>
   <script>
 function openUs(evt, usType) {
   var i, tabcontent, tablinks;
