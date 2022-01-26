@@ -8,31 +8,37 @@
 </head>
 <body>
   <div class="tab" style="text-align:center">
-    <button class="tablinks" onClick="openUs(event, 'Home')">To The REAL Homepage</button>
-         <button class="tablinks" onClick="openUs(event, 'hex1')">Battery Tester Hex Code</button>
-         <button class="tablinks" onClick="openUs(event, 'hex2')">Lowercase Letters Hex Code</button>
-         <button class="tablinks" onClick="openUs(event, 'simprad')">Simplifying Radicals Cheat</button>
-    <button class="tablinks" onClick="openUs(event, 'listpic')">Simple Graphing Tool</button>
+    <div class="tab" style="text-align:center">
+      <button class="tablinks" onClick="openUs(event, 'Home')">To The One Enterprises Homepage</button>
+      <button class="tablinks" onClick="openUs(event, 'hex1')">Battery Tester Hex Code</button>
+      <button class="tablinks" onClick="openUs(event, 'hex2')">Lowercase Letters Hex Code</button>
+      <button class="tablinks" onClick="openUs(event, 'simprad')">Simplifying Radicals Cheat</button>
+      <button class="tablinks" onclick="openUs(event, 'listpic')">Simple Graphing Tool</button>
+
+  </div>
+  <div id="Index" class="tabcontent">
+    <a rel="index" type="text/html" href="index.html">Click here to go to the Calculator Cheats homepage.</a>
   </div>
   <div id="Home" class='tabcontent'>
-      <a rel="home" href="https://loginagohacker.github.io">Click here to go back to the homepage.</a>
-                <p>-----------------------------------------</p>
+      <a rel="home" href="https://oneenterprises.github.io">Click here to go back to the One Enterprises homepage.</a>
+    <p>-----------------------------------------</p>
     </div>
     <div id="hex1" class='tabcontent'>
         <a rel="hex1" href="hexcodespg1.html">Click here to see the battery tester hex code.</a>
-                      <p>-----------------------------------------</p>
+      <p>-----------------------------------------</p>
     </div>
     <div id="hex2" class='tabcontent'>
         <a rel="hex2" href="hexcodespg2.html">Click here to see the lowercase letters option hex code.</a> 
-                      <p>-----------------------------------------</p>
+      <p>-----------------------------------------</p>
     </div>
     <div id="simprad" class='tabcontent'>
         <a rel="simprad" href="cheatspg1.html">Click here to see the simplifying radicals page.</a>
-                      <p>-----------------------------------------</p>
+      <p>-----------------------------------------</p>
     </div>
   <div id="listpic" class="tabcontent">
     <a rel="listpic" href="listpic.html">Click here to view the graphing tool page.</a>
     <p>--------------------------------</p>
+  </div>
   <script>
 function openUs(evt, usType) {
   var i, tabcontent, tablinks;
